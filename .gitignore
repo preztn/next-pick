@@ -1,0 +1,21 @@
+# Global
+*.log
+*.DS_Store
+.env
+.vscode/
+__pycache__/
+*.pyc
+
+# Node (React)
+client/node_modules/
+client/.env
+client/build/
+
+# Python (Flask)
+server/venv/
+server/.env
+server/.pytest_cache/
+server/.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
