@@ -34,7 +34,7 @@ def recommend():
     available_players = [p for p in player_pool if abs(p["adp"] - pick_num) <= 5 and p["proj_points"] > 0]
 
     # Sort by projected points, descending
-    top_players = sorted(available_players, key=lambda x: x["proj_points"], reverse=True)[:5]
+    top_players = sorted(available_players, key=lambda x: x["proj_points"], reverse=True)[:8]
 
     return jsonify({
         "pick": pick_num,
